@@ -6,78 +6,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reprensentative Council</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css\style.css">
     <script src="https://kit.fontawesome.com/eecc9ab967.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+
     <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/riajulislam" title="riajulislam">riajulislam</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
     <style>
+
+
+        @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600&family=Raleway:ital,wght@0,400;0,600;1,300&display=swap");
+
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans&family=Passion+One:wght@400;700;900&display=swap');
+
         :root{
             background-color: #1f6200;
         }
         .page-wrapper {
-  font-family: 'Lato', sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: space-evenly;
-  padding-left: calc(5% - 16px);
-  padding-right: calc(5% - 16px);
-  width: inherit;
-  /* padding: 0 5%; */
-}
-.profile-box {
-  background: #fafafa;/*#e6f2ff;*/
-  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
-  border-radius: 3px;
-  margin: 20px 16px;
-  padding: 16px 16px 12px;
-  width: 250px;
-  max-width: calc(100% - 17px);
-  text-align: center;
-  transition: 300ms;
-  flex-grow: 1;
-  user-select:   none;
-}
-.profile-box:hover {
-  /* box-shadow: 0 2px 6px 0 rgba(47,83,151,0.40); */
-  background-color: #eaeaea; /* #cce6ff;*/
-  /*border-color: #1a8cff;*/
-  box-shadow: 0 0 20px 9px rgba(0,0,0,0.03);
-  transform: scale(1.03);
-}
-.page-wrapper img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
-}
-.page-wrapper h3 {
-  font-weight: 500;
-  color: #002a55;
-  font-size: 1.6em;
-  margin-top: 20px;
-  margin-bottom: 5px;
-  
- }
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-evenly;
+        padding-left: calc(5% - 16px);
+        padding-right: calc(5% - 16px);
+        width: inherit;
+        /* padding: 0 5%; */
+        }
+        .profile-box {
+        background: #fafafa;/*#e6f2ff;*/
+        box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+        border-radius: 3px;
+        margin: 20px 16px;
+        padding: 16px 16px 12px;
+        width: 250px;
+        max-width: calc(100% - 17px);
+        text-align: center;
+        transition: 300ms;
+        flex-grow: 1;
+        user-select:   none;
+        }
+        .profile-box:hover {
+        /* box-shadow: 0 2px 6px 0 rgba(47,83,151,0.40); */
+        background-color: #eaeaea; /* #cce6ff;*/
+        /*border-color: #1a8cff;*/
+        box-shadow: 0 0 20px 9px rgba(0,0,0,0.03);
+        transform: scale(1.03);
+        }
+        .page-wrapper img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+        }
+        .page-wrapper h3 {
+        font-weight: 800;
+        color: #002a55;
+        font-size: 1.6em;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-family: 'Raleway';
+        }
 
-.rc {
-  font-weight: 700;
-  color:#e0aa15;
-  font-size: 3.2em;
-  margin-top: 20px;
-  margin-bottom: 5px;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-shadow: #002a55;
-  
- }
-.page-wrapper h4 {
-  transition: 500ms;
-  font-weight: 300;
-  font-size: 1.14em;
-  color: #055ab5;
-  margin-top: 12px;
-  /*cursor: pointer;*/
-}
+        .rc {
+        font-weight: 700;
+        color:#e0aa15;
+        font-size: clamp(2rem, 3vw, 5rem);
+        margin-top: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-family: 'Poppins';
+        text-shadow: 0px 0px 10px #002a55;
+        
+        }
+        .page-wrapper h4 {
+        transition: 500ms;
+        font-weight: 300;
+        font-size: 1.14em;
+        color: #055ab5;
+        margin-top: 12px;
+        /*cursor: pointer;*/
+        }
    
 
     </style>
@@ -93,7 +100,7 @@
                 <div class="icon cancel-btn">
                     <i class="fas fa-times"></i>
                 </div>
-                <li><a href="#home">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a id="council_click scroll" href="#council_main">Councils</a></li>
                 <li><a id="scroll" href="#members">Members</a></li>
                 <li><a target="_blank" href="elections.html">Elections</a></li>
@@ -266,6 +273,7 @@
             </footer>
         </div>
     
+        <script src="./scripts/main.js"></script>
 
 </body>
 </html>
