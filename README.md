@@ -8,9 +8,8 @@ The website is live at <a href="https://iiserbsac.netlify.com">iiserbsac.netlify
 <ul><li>Tanishq Sharma: <i><a href="https://github.com/TanishqSharma2022">@tanishqsharma2022</a></i></li>
 <li>Shailesh Kachhi: <i><a href="https://github.com/Shailesh22290">@shailesh22290</a></li>
 </ul>
-# The site looks like this <img   src=" https://github.com/Shailesh22290/SAC-IISERB/blob/main/images/Screenshot%202023-10-25%20010909.png">
-![alt text](https://github.com/Shailesh22290/SAC-IISERB/blob/main/images/Screenshot%202023-10-25%20010909.png?raw=true)
- 
+
+
 
 
 
